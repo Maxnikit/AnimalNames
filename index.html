@@ -11,21 +11,26 @@
 </head>
 <body>
     <h1>Животные</h1>
+    <p id="username"></p>
+    <p>Попробуй назвать всех этих животных!</p>
 <p id="pigtext">Свинья</p>
-<img src="https://www.shutterstock.com/image-photo/portrait-healthy-fattening-pig-looks-260nw-1851345166.jpg"
+<img id="image" src="images/pig.jpg"
 width = "200" height = "200">
 <p>Придумайте мне имя</p>
 <form>
 <input type="text"></input>
 <button>Отправить</button><br>
-<button>Назад</button>
-<button>Вперёд</button>
+</form>
+<button id="back">Назад</button>
+<button onclick="myFunction()"">Вперёд</button>
 
 
 <ul>
 <li><a href="https://vk.com/maxnikit1">Вконтакте</a></li>
 <li><a href="https://t.me/Maxnikit23">Телеграм</a></li>
 </ul>
+<button id="ChangeUser">Change user</button>
+
 <script src="scripts/main.js"></script>
 
 </body>
