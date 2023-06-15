@@ -40,4 +40,5 @@ function setUserName() {
   myButton.onclick = function() {
     setUserName();
   }
-    
+  var ScriptCheck = document.querySelector('#ScriptCheck')
+  ScriptCheck.textContent = 'JavaScript активен';
