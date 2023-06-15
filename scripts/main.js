@@ -1,3 +1,4 @@
+
 function AnswerCheck(AnimalInput, RightAnswer){
     let result = (AnimalInput === RightAnswer);
     return result;
