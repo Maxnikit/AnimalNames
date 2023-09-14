@@ -1,34 +1,38 @@
 <!doctype html>
 <html>
+
 <head>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <meta charset="utf-8">
     <title>Мой первый сайт</title>
 </head>
+
 <body>
     <h1>Животные</h1>
     <p id="username"></p>
     <p>Попробуй назвать всех этих животных!</p>
-<p id="pigtext">Свинья</p>
-<img id="image" src="images/pig.jpg"
-width = "200" height = "200">
-<p>Придумайте мне имя</p>
-<input type="text"></input>
-<button>Отправить</button><br>
-<button id="back">Назад</button>
-<button onclick="myFunction()"">Вперёд</button>
+    <img id="image" src="images/pig.jpg" width="200" height="200">
+    <p id="SayMyName">Как меня зовут?</p>
+    <p id="input" <form action="">
+        <label for="inputinput">Имя:</label>
+        <input id="inputinput" name="inputName" type="text" placeholder="Пишите сюда"></input>
+        <input type="submit" value="Submit" />
+        <button onclick="AnswerCheck()">Отправить</button>
+        </form>
+    </p>
 
 
-<ul>
-<li><a href="https://vk.com/maxnikit1">Вконтакте</a></li>
-<li><a href="https://t.me/Maxnikit23">Телеграм</a></li>
-</ul>
-<button id="ChangeUser">Change user</button>
-<p id="ScriptCheck"></p>
-<script src="scripts/main.js"> </script>
+    <ul>
+        <li><a href="https://vk.com/maxnikit1">Вконтакте</a></li>
+        <li><a href="https://t.me/Maxnikit23">Телеграм</a></li>
+    </ul>
+    <button id="ChangeUser">Change user</button>
+    <p id="ScriptCheck"></p>
+    <script src="scripts/main.js"> </script>
 </body>
+
 </html>

@@ -1,39 +1,61 @@
-#pigtext:hover {
-  text-align:center;
-  color:hotpink;
-  width:fit-content;
+#pigText:hover {
+  text-align: center;
+  color: hotpink;
+  width: fit-content;
 }
+
+#input {
+  text-align: center;
+  margin: auto;
+}
+
+#SayMyName {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+}
+
 html {
-    font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
-    font-family: 'Roboto', sans-serif;
-  }
-  h1 {
-    text-align:center;
-    font-size: 40px;
-    margin: 0;
-    padding: 20px 0;
-    color: plum;
-    text-shadow: 3px 3px 1px black;
-  }
-  
-  p, li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-  html {
-    background-color:papayawhip;
-  }
-  body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-  
-    
+  font-size: 14px;
+  /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+  font-family: "Roboto", sans-serif;
+}
+
+#send {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 20px 0;
+  color: plum;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: papayawhip;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
